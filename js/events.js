@@ -10,7 +10,7 @@ function frameIt() {
   })
 }
 function pressIt() {
-  $('body').on("keydown", function (keypressEvent) {
+  $(document).on("keydown", function (keypressEvent) {
     if (keypressEvent.key === 'g'){
       alert("g!")      
     }
