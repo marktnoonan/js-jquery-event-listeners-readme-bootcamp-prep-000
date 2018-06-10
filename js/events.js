@@ -16,6 +16,11 @@ function pressIt() {
     }
   })
 }
+function submitIt() {
+  $("form").on("submit", function(){
+    alert("Your")
+  })
+}
 $(document).ready(function(){
 
 // call functions here
